@@ -17,7 +17,7 @@ pacman -Syu --needed --noconfirm -q
 # Installing Basic Utilities
 log_info "Installing standard CLI tools..."
 
-pacman -Sy -q --noconfirm htop git curl make unzip ufw fail2ban python psmisc libnewt base-devel ca-certificates gnupg \
+pacman -Sy -q --noconfirm --needed htop git curl make unzip ufw fail2ban python psmisc libnewt base-devel ca-certificates gnupg \
   lsb-release openssl archlinux-keyring python-pip python-dotenv python-yaml
 
 #apt install -y \
