@@ -633,6 +633,7 @@ else
 fi
 
 # Uninstall caddy
-apt remove -y caddy
+#apt remove -y caddy
+pacman -R caddy --noconfirm
 
 exit 0
