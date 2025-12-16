@@ -1,6 +1,6 @@
 # This is n8n installer for Arch-based Linux OS. Tested on CachyOS. Original repo and credits: https://github.com/kossakovsky/n8n-install
 **Known issues:**
-- n8n-import is not working
+- n8n-import script for importing 300 example workflows is not working (did not figure it out)
 - manual switching to bash as default shell is needed (see below)
 
 # n8n Install
